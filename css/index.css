@@ -544,7 +544,7 @@ button {
 }
 @media only all and (max-width: 450px) {
         div.stay {
-            font-size: 115px;
+            font-size: 105px;
             letter-spacing: -7px;
         }
         div.heel_1 {

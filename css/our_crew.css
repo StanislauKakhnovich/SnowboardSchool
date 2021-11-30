@@ -1,0 +1,156 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+html {
+    min-width: 320px;
+}
+body {
+    margin: 0;
+}
+ 
+h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.conteiner {
+    padding-left: 14vw;
+    padding-right: 14vw;
+    padding-bottom: 35vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+div.JAMIE,
+div.JAMES,
+div.PETER,
+div.AMANDA {
+    margin: 0 2vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 250px;
+    grid-template-columns: 250px;
+    -ms-grid-rows: 299px 25px 34px;
+    grid-template-rows: 299px 25px 34px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+div.JAMIE > *:nth-child(1), div.JAMES > *:nth-child(1), div.PETER > *:nth-child(1), div.AMANDA > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+div.JAMIE > *:nth-child(2), div.JAMES > *:nth-child(2), div.PETER > *:nth-child(2), div.AMANDA > *:nth-child(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+}
+div.JAMIE > *:nth-child(3), div.JAMES > *:nth-child(3), div.PETER > *:nth-child(3), div.AMANDA > *:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+div img.jamie,
+div img.james,
+div img.peter,
+div img.amanda
+ {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+}
+div.position {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #565656;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+    text-transform: uppercase;
+}
+div.name {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #333333;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif; 
+    text-transform: uppercase;
+}
+
+@media only all and (max-width: 1366px) {
+   
+    h1 {
+        font-size: 36px;
+        letter-spacing: 1px;
+    }
+    div.JAMIE,
+    div.JAMES,
+    div.PETER,
+    div.AMANDA {
+        -ms-grid-columns: 178px;
+        grid-template-columns: 178px;
+        -ms-grid-rows: 212px 18px 24px;
+        grid-template-rows: 212px 18px 24px;
+
+    }
+    div.JAMIE > *:nth-child(1), div.JAMES > *:nth-child(1), div.PETER > *:nth-child(1), div.AMANDA > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+
+    }
+    div.JAMIE > *:nth-child(2), div.JAMES > *:nth-child(2), div.PETER > *:nth-child(2), div.AMANDA > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+
+    }
+    div.JAMIE > *:nth-child(3), div.JAMES > *:nth-child(3), div.PETER > *:nth-child(3), div.AMANDA > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+
+    }
+    div img.jamie,
+    div img.james,
+    div img.peter,
+    div img.amanda
+    {
+        width: 178px;
+        height: 178px;
+        border-radius: 89px;
+    }
+    div.position {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    div.name {
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+
+}
+@media only all and (max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    }
+}

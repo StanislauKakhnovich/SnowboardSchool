@@ -1,0 +1,282 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+html {
+    min-width: 320px;
+}
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 7.48vh;
+    margin-bottom: 3.99vh;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+p {
+    margin: 3.99vh 21.74vw 5.94vh 21.74vw;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    color: #565656;
+    font-weight: 300;
+    font-family:  'Muli', serif;
+    text-align: center;
+}
+div.conteiner {
+    padding-left: 21.74vw;
+    padding-right: 21.74vw;
+    padding-bottom: 25vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+div.one,
+div.two,
+div.three {
+    margin: 2vh 2vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 237px;
+    grid-template-columns: 237px;
+    -ms-grid-rows: 186px 67px 68px 67px;
+    grid-template-rows: 186px 67px 68px 67px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+div.one > *:nth-child(1), div.two > *:nth-child(1), div.three > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+div.one > *:nth-child(2), div.two > *:nth-child(2), div.three > *:nth-child(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+}
+
+div.one > *:nth-child(3), div.two > *:nth-child(3), div.three > *:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+div.one > *:nth-child(4), div.two > *:nth-child(4), div.three > *:nth-child(4) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+}
+
+div img.skier,
+div img.board,
+div img.snowboarder
+ {
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+}
+div img.skier {
+    width: 184px;
+}
+
+div img.board {
+    width: 133px;
+}
+div img.snowboarder {
+    width: 237px; 
+}
+div.question {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #565656;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+    text-transform: uppercase;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+div.answer {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #333333;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+button {
+    width: 120px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #ff690f;
+    font-size: 15px;
+    color: #fefefe;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+} 
+div.line_form {  
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+form label {
+    display: block;
+    width: 177px;
+    float: left;
+    clear: left;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+}
+
+div.article {
+    margin-left: 177px; 
+}
+input.line {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+form {
+    padding: 10px;
+}
+div.form {
+    width: 400px;
+    position: fixed;
+    left: 15vw;
+    top: 50vh;
+    background-color: #ff690f;
+    border: solid black 1px; 
+    display: none;
+}
+button.close,
+input[value='ready']
+ {
+    width: 70px;
+    height: 20px;
+    font-size: 9px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+
+
+@media only all and (max-width: 1366px) {
+
+    h1 {
+        font-size: 36px;
+        letter-spacing: 1px;
+    } 
+    p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 1.8;
+    }
+    div.one,
+    div.two,
+    div.three {
+        -ms-grid-columns: 168px;
+        grid-template-columns: 168px;
+        -ms-grid-rows: 134px 48px 49px 48px;
+        grid-template-rows: 134px 48px 49px 48px;
+    }
+    div.one > *:nth-child(1), div.two > *:nth-child(1), div.three > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    div.one > *:nth-child(2), div.two > *:nth-child(2), div.three > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    div.one > *:nth-child(3), div.two > *:nth-child(3), div.three > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    div.one > *:nth-child(4), div.two > *:nth-child(4), div.three > *:nth-child(4) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+    }
+    div img.skier {
+        width: 131px;
+    }
+    
+    div img.board {
+        width: 94px;
+    }
+    div img.snowboarder {
+        width: 168px; 
+    }
+    div.question {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+    div.answer {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    button {
+        width: 85px;
+        height: 30px;
+        border-radius: 6px;
+        font-size: 9px;
+    }
+}
+@media only all and (max-width: 550px) {
+    div.form {
+        width: 290px;
+        position: fixed;
+        left: 5px;
+        top: 50vh;
+        background-color: #ff690f;
+        border: solid black 1px; 
+    }
+    form label {
+        width: 120px; 
+    }
+    
+    div.article {
+        margin-left: 120px; 
+    }
+}
+
+@media only all and (max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    } 
+
+}

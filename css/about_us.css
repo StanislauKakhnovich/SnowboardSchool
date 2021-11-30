@@ -1,0 +1,332 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+html {
+    min-width: 320px;
+}
+body {
+    margin: 0;
+}
+
+div.body {
+    padding-left: 17.18vw;
+    padding-right: 40.42vw;
+    padding-top: 15.62vh;
+    padding-bottom: 20.19vh;
+    background: url('../images/Background_Skier_and_Mounts.jpg') no-repeat right; 
+    background-size: cover;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 13.79vh 25.18vh 11.36vh;
+    grid-template-rows: 13.79vh 25.18vh 11.36vh;
+
+}
+
+div.body > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+
+}
+
+div.body > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+
+}
+
+div.body > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+
+}
+
+div.body > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+
+}
+
+div.body > *:nth-child(5) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+
+}
+
+div.body > *:nth-child(6) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+
+}
+
+div.body > *:nth-child(7) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+
+}
+
+div.body > *:nth-child(8) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+
+}
+
+div.body > *:nth-child(9) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+
+}
+div.mountain {
+    font-size: 55px;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: #2f2f2f;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif; 
+    text-transform: uppercase;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+}
+div.text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+    -ms-grid-row: 2;
+    grid-row: 2;
+}
+div.text p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1;
+    color: #2b2b2b;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+}
+div.happy {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+div.awards {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+div.tops {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+p.row1 {
+    margin: 0;
+    font-size: 64px;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: #ff690f;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif; 
+}
+p.row2 {
+    margin: 5px 5px 0 0;
+    font-size: 21px;
+    letter-spacing: -0.7px;
+    line-height: 1;
+    color: #2b2b2b;
+    font-weight: 300;
+    font-family: 'Catamaran', sans-serif; 
+    text-transform: uppercase;
+}
+
+@media only all and (max-width: 1450px) {
+   
+    div.mountain {
+        font-size: 32px;
+        letter-spacing: 1px;
+        line-height: 1;
+
+    }
+}
+@media only all and (max-width: 1366px) {
+    
+    div.text p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 1;
+    }
+    p.row1 {
+        margin: 0;
+        font-size: 39px;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+    p.row2 {
+        margin: 5px 5px 0 0;
+        font-size: 13px;
+        letter-spacing: -0.7px;
+        line-height: 1;
+
+    }
+}
+
+@media only all and (max-width: 1150px) {
+    div.body  {
+        padding-left: 17.18vw;
+        padding-right: 17.18vw;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: 10.79vh 35.18vh 16.36vh;
+        grid-template-rows: 10.79vh 35.18vh 16.36vh;
+        background: url('../images/Background_Skier_and_Mounts_BW.jpg') no-repeat right; 
+        background-size: cover;
+    }
+    div.body > *:nth-child(1)  {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    div.body > *:nth-child(2)  {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+    div.body > *:nth-child(3)  {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+    div.body > *:nth-child(4)  {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    div.body > *:nth-child(5)  {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+    div.body > *:nth-child(6)  {
+        -ms-grid-row: 2;
+        -ms-grid-column: 3;
+    }
+    div.body > *:nth-child(7)  {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    div.body > *:nth-child(8)  {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+    }
+    div.body > *:nth-child(9)  {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }
+
+    div.mountain {
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 1;
+        color: red;
+
+    }
+    div.text p.one {
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        line-height: 1;
+        color: red;
+    }
+    div.text p.two {
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        line-height: 1;
+        color: red;
+    }
+    p.row1 {
+        margin: 0;
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 1;
+        -ms-grid-column-align: center;
+            justify-self: center;
+    }
+    p.row2 {
+        margin: 5px 5px 0 0;
+        font-size: 13px;
+        letter-spacing: -0.7px;
+        line-height: 1;
+        color: red;
+    }
+    div.happy {
+        text-align: center;
+    }
+    div.awards {
+        text-align: center;
+    }
+    div.tops {
+        text-align: center;
+    }
+}
+@media only all and (max-width: 450px) {
+    div.body  {
+        padding-left: 17.18vw;
+        padding-right: 17.18vw;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: 10.79vh 41.18vh 16.36vh;
+        grid-template-rows: 10.79vh 41.18vh 16.36vh;
+
+}
+    div.body > *:nth-child(1)  {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+
+}
+    div.body > *:nth-child(2)  {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+
+}
+    div.body > *:nth-child(3)  {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+
+}
+    div.body > *:nth-child(4)  {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+
+}
+    div.body > *:nth-child(5)  {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+
+}
+    div.body > *:nth-child(6)  {
+        -ms-grid-row: 2;
+        -ms-grid-column: 3;
+
+}
+    div.body > *:nth-child(7)  {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+
+}
+    div.body > *:nth-child(8)  {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+
+}
+    div.body > *:nth-child(9)  {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+
+}
+}

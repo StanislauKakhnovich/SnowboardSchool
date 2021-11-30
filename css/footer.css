@@ -1,0 +1,193 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+*, body
+    {
+        -webkit-text-size-adjust: none;
+    }
+footer {
+    padding-left: 6.25vw;
+    padding-right: 6.25vw;
+    padding-top: 4.46vh;
+    padding-bottom: 4.46vh;
+    background-color: #2e2e2e;
+} 
+
+div.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+div.social_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+div.footer div {
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+    text-transform: uppercase;
+    padding-top: 1vh;
+    padding-left: 25px;
+    padding-right: 1.5vw;
+}
+
+div.phone {
+    background: url('../images/phone.png') no-repeat left center; 
+}
+div.adress {
+    background: url('../images/adress.png') no-repeat left center; 
+}
+div.mail {
+    background: url('../images/mail.png') no-repeat left center; 
+}
+div.open {
+    background: url('../images/open.png') no-repeat left center; 
+}
+div.social_1 {
+    margin-bottom: 15px;
+}
+div.social_1 a {
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+a.twitter {
+    background-image: url('../images/twitter.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+a.facebook {
+    background-image: url('../images/facebook.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 10.66px;
+}
+a.instagram {
+    background-image: url('../images/instagram.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+
+
+div.social_1 a span {
+	width: 60px;
+	height: auto;
+	line-height: 10px;
+	padding: 10px;
+	left: 50%;
+	margin-left: -44px;
+	font-family: 'Muli', serif;
+	font-weight: 400;
+	font-size: 14px;
+    font-weight: 700;
+	color: #f7f7f7;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 4px solid #ff690f;
+	background-color: #2e2e2e;
+	text-indent: 0;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 40px;
+	opacity: 0;
+	visibility: visible;
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	        box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transform: translate(35px) rotate(25deg) scale(1.5);
+	    -ms-transform: translate(35px) rotate(25deg) scale(1.5);
+	        transform: translate(35px) rotate(25deg) scale(1.5);
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+div.social_1 a span:before,
+div.social_1 a span:after {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+div.social_1 a span:after {
+	bottom: -14px;
+	margin-left: -10px;
+	border-top: 10px solid #ff690f;
+}
+div.social_1 a:hover span{
+    visibility: visible;
+	opacity: 0.9;
+	-webkit-transform: translate(0px) rotate(0deg) scale(1);
+	    -ms-transform: translate(0px) rotate(0deg) scale(1);
+	        transform: translate(0px) rotate(0deg) scale(1);
+}
+.scrollup {
+    width: 42px;
+    height: 42px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 25px;
+    right: 5px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../images/scroll_up.png') no-repeat;
+    background-size: 42px;
+}
+.scrollup:hover {
+    opacity: 1;
+}
+.creators {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+    text-decoration: none;
+    padding-top: 1vh;
+    padding-left: 0;
+    padding-right: 1.5vw;
+}
+
+@media only all and (max-width: 1366px) {
+
+    div.footer div {
+        font-size: 12px;
+    }
+    .creators {
+        font-size: 10px;
+    }
+}
+@media only all and (min-width: 320px) and (max-width: 350px) {
+    body {
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>what_we_offer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta http-equiv="cleartype" content="on"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+    <meta name="x-rim-auto-match" content="none" forua="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&display=swap" rel="stylesheet">
+    <script src="javascript/jquery-3.6.0.min.js"></script>
+    
+    
+
+    <style>
+        @import "css/header.css";
+        @import "css/font.css";
+        @import "css/what_we_offer.css";
+        @import "css/footer.css";
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="menu">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="what_we_offer.html" class="selected">What We Offer</a></div>
+            <div><a href="gallery.html">Gallery</a></div>
+            <div><a href="our_crew.html">Our Crew</a></div>
+            <div><a href="about_us.html">About Us</a></div>
+            <div><a href="testimonials.html">Testimonials</a></div>
+            <div><a href="contact_us.html">Contact Us</a></div>
+        </div>
+        
+    </header>
+
+    <h1>What we offer</h1>
+    <p>Skiing and snowboarding still rank among the undisputed winter sport highlights 
+        for all ages and ability levels. The perfectly groomed sci slopes makes a real heaven for skiers
+        and riders. Our professional ski and snowboard instructors can show you all the littl details 
+        while improving your skiing techniques and riding skills.</p>
+
+
+
+    
+
+        <div class="conteiner">
+            <div class="one">
+                <div class="skier_1"><img class="skier" src="images/skier.png" title="skier"></div>
+                <div class="question">New to skiing?</div>
+                <div class="answer">Private lessons <br> for beginners</div>
+                <div class="button_1">
+                    
+                        <button onclick="showForm()" type="button">
+                            from $250
+                        </button>
+                    
+        </div>
+            </div>
+            <div class="two">
+                <div class="board_1"><img class="board" src="images/board.png" title="skier"></div>
+                <div class="question">Need a crew?</div>
+                <div class="answer">Group lessons <br> for beginners</div>
+                <div class="button_1">
+                    
+                        <button onclick="showForm()" id="group150" type="button">
+                            from $150
+                        </button>
+        
+                </div>
+            </div>
+            <div class="three">
+                <div class="snowboarder_1"><img class="snowboarder" src="images/snowboarder.png" title="skier"></div>
+                <div class="question">Wanna more?</div>
+                <div class="answer">Advanced group <br> lessons</div>
+                <div class="button_1">
+                    
+                        <button onclick="showForm()" id="advanced450" type="button">
+                            from $450
+                        </button>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="form" id="form_1">
+            <form class="info" name='INFO' target="one_blank" action='http://fe.it-academy.by/TestForm.php' novalidate>
+                <div class="line_form">
+                    <label for="n1">Enter your name:</label>
+                    <div class="article"><input  id="n1" type="text" name='NAME' class="line"></div>
+                </div>
+                <div class="line_form">
+                    <label for="n2">Enter your surname:</label>
+                    <div class="article"><input  id="n2" type="text" name='SURNAME' class="line"></div>
+                </div>
+                <div class="line_form">
+                    <label for="n3">Enter your age:</label>
+                    <div class="article"><input  id="n3" type="text" name='AGE' class="line"></div>
+                </div>
+                <div class="line_form">
+                    <label for="n4">Enter your E-mail:</label>
+                    <div class="article"><input  id="n4" type="text" name='MAIL' class="line"></div>
+                </div>
+                <div class="line_form"><input type='submit' value='ready' onclick="closeForm_1()">  
+                </div>
+                <div class="line_form">
+                    <button class="close" onclick="closeForm()" type="button">
+                    close form
+                    </button> 
+                </div>
+                
+            </form>
+        </div>
+        
+        
+        <footer>
+            <div class="footer">
+                
+                    <div class="phone">+43662 123456</div>
+                    <div class="adress">Paracelsusstrabe 26, 5020</div>
+                    <div class="mail">inbox@mountain.com</div>
+                    <div class="open">Open hours 8.00am &ndash; 10.00 pm Monday &ndash; Sunday</div>
+                
+            </div>
+            <div class="social_1">
+                <a href="http://www.twitter.com" target="one_blank" title="twitter" class="twitter"><span>twitter</span></a>
+                <a href="http://www.facebook.com" target="one_blank" title="facebook" class="facebook"><span>facebook</span></a>
+                <a href="http://www.instagram.com" target="one_blank" title="instagram" class="instagram"><span>instagram</span></a>
+            </div>
+            <div><a class="creators" href="http://behance.net/inna_prudka" target="one_blank" title="Portfolio of Inna Prudko">Designed by Inna Prudka</a></div>
+            <div class="creators">Coded by Stanislau Kakhnovich <E-mail>stas_2002@tut.by</E-mail></div>
+            <a href="#" class="scrollup" style="display: inline;">Наверх</a>
+            <script type="text/javascript" src="javascript/scrollup.js"></script>
+
+        </footer>
+        
+        <script src="javascript/form.js"></script>
+        
+
+</body>
+</html>

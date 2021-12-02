@@ -82,7 +82,6 @@ div.menu a {
     }
   }
 div.menu a:hover {
-    font-size: 24px;
     -webkit-animation: flicker 1.5s infinite alternate;
             animation: flicker 1.5s infinite alternate;
     color: #fff;
@@ -94,11 +93,9 @@ div.menu a.selected {
 
 @media only all and (max-width: 1366px) {
     div.menu a {
-        font-size: 12px;
+        font-size: 14px;
     }
-    div.menu a:hover {
-        font-size: 20px;  
-    }
+   
 }
 @media only all and (max-width: 580px) {
     header {

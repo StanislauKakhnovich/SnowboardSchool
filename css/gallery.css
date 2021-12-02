@@ -49,7 +49,7 @@ div.column > *:nth-child(4) {
     -ms-grid-column: 1;
 }
 
-div img.picture {
+div img {
     width: 33.03vw;
     height: 100%;
     -o-object-fit: cover;
@@ -78,6 +78,9 @@ div.c12_1 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / span 2;
+    /* background: url('../images/c12.jpg.jpg') no-repeat; 
+    background-size: cover; */
+
 }
 div.a23_1 {
     -ms-grid-column: 1;
@@ -98,6 +101,7 @@ div.b3_1 {
     grid-column: 1;
     -ms-grid-row: 4;
     grid-row: 4;
+    
 }
 div.c3_1 {
     -ms-grid-column: 1;
@@ -135,7 +139,7 @@ div.c3_1 {
         -ms-grid-row: 4;
         -ms-grid-column: 1;
     }
-    div img.picture {
+    div img {
     width: 450px;
     } 
 }
@@ -170,7 +174,7 @@ div.c3_1 {
         -ms-grid-row: 4;
         -ms-grid-column: 1;
     }
-    div img.picture {
+    div img {
     width: 320px;
     } 
 }

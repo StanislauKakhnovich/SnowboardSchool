@@ -160,20 +160,24 @@ form label {
 div.article {
     margin-left: 177px; 
 }
+
 input.line {
     width: 100%;
+    outline: none;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-
+div.button_1 {
+    position: relative;
+}
 form {
     padding: 10px;
 }
 div.form {
     width: 400px;
-    position: fixed;
-    left: 15vw;
-    top: 50vh;
+    position: absolute;
+    left: -140px;
+    top: -250px;
     background-color: #ff690f;
     border: solid black 1px; 
     display: none;
@@ -259,11 +263,7 @@ input[value='ready']
 @media only all and (max-width: 550px) {
     div.form {
         width: 290px;
-        position: fixed;
-        left: 5px;
-        top: 50vh;
-        background-color: #ff690f;
-        border: solid black 1px; 
+        left: -102px;
     }
     form label {
         width: 120px; 

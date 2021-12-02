@@ -55,12 +55,39 @@
                 <div class="skier_1"><img class="skier" src="images/skier.png" title="skier"></div>
                 <div class="question">New to skiing?</div>
                 <div class="answer">Private lessons <br> for beginners</div>
-                <div class="button_1">
+                <div class="button_1" id="button_1">
                     
-                        <button onclick="showForm()" type="button">
+                        <button onclick="showForm_1()" type="button" id="button">
                             from $250
                         </button>
-                    
+                        <div class="form" id="form_1">
+                            <form class="info" name='INFO' id="INFO_1" target="one_blank" action='http://fe.it-academy.by/TestForm.php' novalidate>
+                                <div class="line_form">
+                                    <label for="NAME_1">Enter your name:</label>
+                                    <div class="article"><input  id="NAME_1" type="text" name='NAME' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="SURNAME_1">Enter your surname:</label>
+                                    <div class="article"><input  id="SURNAME_1" type="text" name='SURNAME' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="AGE_1">Enter your age:</label>
+                                    <div class="article"><input  id="AGE_1" type="text" name='AGE' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="n4">Enter your E-mail:</label>
+                                    <div class="article"><input  id="n4" type="text" name='MAIL' class="line"></div>
+                                </div>
+                                <div class="line_form"><input type='submit' value='ready' onclick="closeForm_1()">  
+                                </div>
+                                <div class="line_form">
+                                    <button class="close" onclick="closeForm1()" type="button">
+                                    close form
+                                    </button> 
+                                </div>
+                                
+                            </form>
+                        </div>
         </div>
             </div>
             <div class="two">
@@ -69,9 +96,37 @@
                 <div class="answer">Group lessons <br> for beginners</div>
                 <div class="button_1">
                     
-                        <button onclick="showForm()" id="group150" type="button">
+                        <button onclick="showForm_2()" id="group150" type="button" id="button">
                             from $150
                         </button>
+                        <div class="form" id="form_2">
+                            <form class="info" name='INFO' id="INFO_2" target="one_blank" action='http://fe.it-academy.by/TestForm.php' novalidate>
+                                <div class="line_form">
+                                    <label for="NAME_2">Enter your name:</label>
+                                    <div class="article"><input  id="NAME_2" type="text" name='NAME' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="SURNAME_2">Enter your surname:</label>
+                                    <div class="article"><input  id="SURNAME_2" type="text" name='SURNAME' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="AGE_2">Enter your age:</label>
+                                    <div class="article"><input  id="AGE_2" type="text" name='AGE' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="m4">Enter your E-mail:</label>
+                                    <div class="article"><input  id="m4" type="text" name='MAIL' class="line"></div>
+                                </div>
+                                <div class="line_form"><input type='submit' value='ready' onclick="closeForm_2()">  
+                                </div>
+                                <div class="line_form">
+                                    <button class="close" onclick="closeForm2()" type="button">
+                                    close form
+                                    </button> 
+                                </div>
+                                
+                            </form>
+                        </div>
         
                 </div>
             </div>
@@ -81,42 +136,43 @@
                 <div class="answer">Advanced group <br> lessons</div>
                 <div class="button_1">
                     
-                        <button onclick="showForm()" id="advanced450" type="button">
+                        <button onclick="showForm_3()" id="advanced450" type="button" id="button">
                             from $450
                         </button>
+                        <div class="form" id="form_3">
+                            <form class="info" name='INFO' id="INFO_3" target="one_blank" action='http://fe.it-academy.by/TestForm.php' novalidate>
+                                <div class="line_form">
+                                    <label for="NAME_3">Enter your name:</label>
+                                    <div class="article"><input  id="NAME_3" type="text" name='NAME' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="SURNAME_3">Enter your surname:</label>
+                                    <div class="article"><input  id="SURNAME_3" type="text" name='SURNAME' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="AGE_3">Enter your age:</label>
+                                    <div class="article"><input  id="AGE_3" type="text" name='AGE' class="line"></div>
+                                </div>
+                                <div class="line_form">
+                                    <label for="k4">Enter your E-mail:</label>
+                                    <div class="article"><input  id="k4" type="text" name='MAIL' class="line"></div>
+                                </div>
+                                <div class="line_form"><input type='submit' value='ready' onclick="closeForm_3()">  
+                                </div>
+                                <div class="line_form">
+                                    <button class="close" onclick="closeForm3()" type="button">
+                                    close form
+                                    </button> 
+                                </div>
+                                
+                            </form>
+                        </div>
                     
                 </div>
             </div>
             
         </div>
-        <div class="form" id="form_1">
-            <form class="info" name='INFO' target="one_blank" action='http://fe.it-academy.by/TestForm.php' novalidate>
-                <div class="line_form">
-                    <label for="n1">Enter your name:</label>
-                    <div class="article"><input  id="n1" type="text" name='NAME' class="line"></div>
-                </div>
-                <div class="line_form">
-                    <label for="n2">Enter your surname:</label>
-                    <div class="article"><input  id="n2" type="text" name='SURNAME' class="line"></div>
-                </div>
-                <div class="line_form">
-                    <label for="n3">Enter your age:</label>
-                    <div class="article"><input  id="n3" type="text" name='AGE' class="line"></div>
-                </div>
-                <div class="line_form">
-                    <label for="n4">Enter your E-mail:</label>
-                    <div class="article"><input  id="n4" type="text" name='MAIL' class="line"></div>
-                </div>
-                <div class="line_form"><input type='submit' value='ready' onclick="closeForm_1()">  
-                </div>
-                <div class="line_form">
-                    <button class="close" onclick="closeForm()" type="button">
-                    close form
-                    </button> 
-                </div>
-                
-            </form>
-        </div>
+        
         
         
         <footer>

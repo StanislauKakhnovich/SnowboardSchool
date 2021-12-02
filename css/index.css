@@ -98,7 +98,6 @@ div.menu a {
     }
   }
 div.menu a:hover {
-    font-size: 24px;
     -webkit-animation: flicker 1.5s infinite alternate;
             animation: flicker 1.5s infinite alternate;
     color: #fff;
